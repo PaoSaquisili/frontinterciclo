@@ -18,6 +18,6 @@ export class MenuComponent implements OnInit {
   }
   status: boolean = false;
   clickEvent(){
-      this.status = !this.status;
+      this.status = !this.status;       
   }
 }
